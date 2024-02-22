@@ -27,9 +27,7 @@ public class Doctor {
 
     @Override
     public String toString() {
-        return "Doctor{" +
-                "name='" + name + '\'' +
-                ", specialization='" + specialization + '\'' +
-                '}';
+        return "Doctor " +
+                name + " | specialization= " + specialization;
     }
 }
